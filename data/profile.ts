@@ -1,0 +1,48 @@
+export const profileData = {
+  user: {
+    name: 'Dr. Sara Menon',
+    email: 'sara.menon@khsd.demo',
+    role: 'Public Health Epidemiologist',
+    department: 'Disease Surveillance Unit',
+    facility: 'Kerala State Health Services',
+    phone: '+91 XXXXX XXXXX',
+    registrationId: 'KL-EPD-2024-0942',
+    joinedDate: '2024-03-15',
+    lastActive: '2026-10-14T12:30:00Z',
+  },
+  preferences: {
+    theme: 'Light',
+    language: 'English',
+    notifications: true,
+    locationAccess: false,
+    dataRefreshInterval: '30 minutes',
+    defaultRegion: 'Kochi, Kerala',
+    alertSeverityFilter: 'All',
+    compactView: false,
+  },
+  security: {
+    twoFactorEnabled: true,
+    lastPasswordChange: '2026-08-15',
+    activeSessions: 2,
+    loginHistory: [
+      { timestamp: '2026-10-14T08:00:00Z', device: 'Android Phone', location: 'Kochi, Kerala', status: 'Success' },
+      { timestamp: '2026-10-13T07:45:00Z', device: 'Android Phone', location: 'Kochi, Kerala', status: 'Success' },
+      { timestamp: '2026-10-12T09:15:00Z', device: 'Desktop Browser', location: 'Ernakulam, Kerala', status: 'Success' },
+      { timestamp: '2026-10-11T22:00:00Z', device: 'Unknown Device', location: 'Unknown', status: 'Failed' },
+    ],
+  },
+  about: {
+    appVersion: '1.0.0',
+    buildNumber: '2026.10.14.001',
+    sdkVersion: 'Expo 53',
+    supportEmail: 'support@diseasex.demo',
+    privacyPolicyUrl: 'https://diseasex.demo/privacy',
+    termsOfServiceUrl: 'https://diseasex.demo/terms',
+    acknowledgments: [
+      'World Health Organization — Disease classification data',
+      'National Centre for Disease Control — Surveillance guidelines',
+      'Kerala State Health Department — Regional protocols',
+      'OpenStreetMap Contributors — Map data',
+    ],
+  },
+};

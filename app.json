@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "DiseaseX",
+    "slug": "diseasex",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "diseasex",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.diseasex.app",
+      "icon": "./assets/icon.png"
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#024a8d"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#004cc4"
+      },
+      "package": "com.diseasex.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/icon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
